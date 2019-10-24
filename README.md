@@ -21,7 +21,12 @@ OpCache corrupts class static method result in custom extension when method name
 Without OpCache or with unique method name all works fine.
 
 ```
-php test.php
+php -c php.ini test.php
+```
+or
+```
+docker build . -t php_test_extension
+docker run php_test_extension
 ```
 
 Expected result:
