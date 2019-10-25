@@ -1,6 +1,7 @@
 # php_test_extension
-php test extension to reproduce [bug 78747|https://bugs.php.net/bug.php?id=78747]
-FIXED
+php test extension to reproduce [bug 78747](https://bugs.php.net/bug.php?id=78747)
+
+**FIXED**
 
 build:
 ```
